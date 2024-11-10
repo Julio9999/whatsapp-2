@@ -10,9 +10,13 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
-        activeSection: 'hsl(var(--section-active-section))',
-        iconColor: 'hsl(var(--icon-color))',
+        	activeSection: 'hsl(var(--section-active-section))',
+        	iconColor: 'hsl(var(--icon-color))',
+			textWhite: 'hsl(var(--text-white))',
+			textFilter: 'hsl(var(--text-filter))',
   			background: 'hsla(var(--background))',
+			bgDarkGreen: 'hsl(var(--bg-dark-green))',
+			textDarkGreen: 'hsl(var(--text-dark-green))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
@@ -51,8 +55,11 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
-  		}
+  			},
+  		},
+		height: {
+			inputHeight: '35px'
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

@@ -9,7 +9,7 @@
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
+    --primary: 203, 32%, 10%;
     --primary-foreground: 0 0% 98%;
     --secondary: 202, 23%, 16%;
     --secondary-foreground: 0 0% 9%;
@@ -29,6 +29,10 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
     --icon-color: 202, 13%, 72%;
+    --text-white: 200, 16%, 93%;
+    --text-filter: 203, 12%, 58%;
+    --bg-dark-green: 170, 67%, 12%;
+    --text-dark-green: 167, 100%, 33%;
 
     --section-active-section: 0, 0%, 100%, 0.1;
   }

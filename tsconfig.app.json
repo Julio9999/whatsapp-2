@@ -23,9 +23,11 @@
     "noUncheckedSideEffectImports": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"],
+      "@side-bar/*": ["./src/modules/side-bar/*"],
+      "@chat/*": ["./src/modules/chat/*"],
+      "@chat-list/*": ["./src/modules/chat-list/*"],
+      "@shared/*": ["./src/modules/shared/*"],
     }
   },
   "include": ["src"]
