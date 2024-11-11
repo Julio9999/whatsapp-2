@@ -80,6 +80,19 @@
     }
   }
 
-  
+::-webkit-scrollbar {
+  width: 10px;               
+  height: 8px;              
+}
+
+::-webkit-scrollbar-track {
+  background-color: hsl(var(--primary));
+  border-radius: 10px;       
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--secondary));
+  border: 2px hsl(var(--primary)) solid; 
+}
   
 }
