@@ -7,8 +7,8 @@ function App() {
 
 
   return (
-    <main className="flex flex-col items-start justify-start  h-screen bg-gray-950">
-      <section className="flex max-w-[1600px] max-h-[913px] h-screen m-auto  w-full">
+    <main className="flex items-center justify-center h-screen">
+      <section className="flex max-w-[1600px] w-[98vw]  h-[95vh]">
         <SideBar />
         <ChatList />
         <Chat />
