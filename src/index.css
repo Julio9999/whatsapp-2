@@ -33,6 +33,9 @@
     --text-filter: 203, 12%, 58%;
     --bg-dark-green: 170, 67%, 12%;
     --text-dark-green: 167, 100%, 33%;
+    --text-dark-green-hover: 167, 100%, 43%;
+    --gray: 202, 13%, 72%;
+    --dark: 203, 32%, 10%;
 
     --section-active-section: 0, 0%, 100%, 0.1;
     --chat-item-hover-bg-color: 202, 23%, 16%;

@@ -17,7 +17,8 @@ export default defineConfig({
        '@side-bar': path.resolve(__dirname, "src", "modules", "side-bar"),
        '@chat': path.resolve(__dirname, "src", "modules", "chat"),
        '@chat-list': path.resolve(__dirname, "src", "modules", "chat-list"),
-       '@shared': path.resolve(__dirname, "src", "modules", "shared")
+       '@shared': path.resolve(__dirname, "src", "modules", "shared"),
+       '@assets': path.resolve(__dirname, "src", "assets")
      },
   },
 });

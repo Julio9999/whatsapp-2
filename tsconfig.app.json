@@ -28,6 +28,7 @@
       "@chat/*": ["./src/modules/chat/*"],
       "@chat-list/*": ["./src/modules/chat-list/*"],
       "@shared/*": ["./src/modules/shared/*"],
+      "@assets/*": ["./src/modules/assets/*"]
     }
   },
   "include": ["src"]
