@@ -19,6 +19,7 @@ export default {
 			textDarkGreen: 'hsl(var(--text-dark-green))',
 			textDarkGreenHover: 'hsl(var(--text-dark-green-hover))',
 			chatItemBgColor: 'hsl(var(--chat-item-hover-bg-color))',
+			borderBottomColor: 'hsla(var(--border-bottom-color))',
 			dark: 'hsl(var(--dark))',
   			foreground: 'hsl(var(--foreground))',
 			gray: 'hsl(var(--gray))',

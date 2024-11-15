@@ -13,12 +13,12 @@ export const ChatItem = () => {
         onMouseLeave={() => setHover(() => false)}
         className="py-3 cursor-pointer  px-4 hover:bg-chatItemBgColor"
         >
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 ">
                 <div>
                     <User width="w-12" height="h-12" />
                 </div>
-                <div className="flex justify-between w-full">
-                    <div className="flex flex-col">
+                <div className="flex justify-between w-full border-b-borderBottomColor border-b">
+                    <div className="flex flex-col mb-2">
                         <span className="text-textWhite font-bold">Mamá</span>
                         <span className="text-textFilter">Si</span>
                     </div>
