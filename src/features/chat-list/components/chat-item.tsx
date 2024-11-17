@@ -11,20 +11,20 @@ export const ChatItem = () => {
         <div 
         onMouseEnter={() => setHover(() => true)}
         onMouseLeave={() => setHover(() => false)}
-        className="py-3 cursor-pointer  px-4 hover:bg-chatItemBgColor"
+        className="py-3 cursor-pointer  px-4 hover:bg-chatItemBgColor  border-b-borderBottomColor border-b"
         >
             <div className="flex items-start gap-4 ">
                 <div>
                     <User width="w-12" height="h-12" />
                 </div>
-                <div className="flex justify-between w-full border-b-borderBottomColor border-b">
-                    <div className="flex flex-col mb-2">
+                <div className="flex justify-between w-full">
+                    <div className="flex flex-col">
                         <span className="text-textWhite font-bold">Mamá</span>
                         <span className="text-textFilter">Si</span>
                     </div>
-                    <div className="flex flex-col items-end justify-between  overflow-x-hidden">
+                    <div className="flex flex-col items-end justify-between  overflow-hidden">
                         <span className="text-textFilter text-xs">18:40</span>
-                        <FaChevronDown className={cn("text-iconColor translate-x-96 transition-all", {
+                        <FaChevronDown className={cn("text-iconColor translate-x-96 translate-y-0 transition-all", {
                             "translate-x-0": hover
                         })} />
                     </div>

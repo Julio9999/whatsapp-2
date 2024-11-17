@@ -1,7 +1,7 @@
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Separator } from "@/components/ui/separator"
 import { cn } from "@/lib/utils"
-import { Dots } from "@/modules/shared/icons/dots"
+import { Dots } from "@/shared/icons/dots"
 import { useSignal } from "@preact/signals-react"
 import { DropdownMenuPortal } from "@radix-ui/react-dropdown-menu"
 

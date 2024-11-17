@@ -1,5 +1,5 @@
 import { Input } from "@/components/ui/input"
-import { placeholderText } from "@/modules/shared/signals/filter";
+import { placeholderText } from "@/shared/signals/filter";
 import { useSignal } from "@preact/signals-react";
 
 import { Search } from "@shared/icons"

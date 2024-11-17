@@ -24,11 +24,14 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@side-bar/*": ["./src/modules/side-bar/*"],
-      "@chat/*": ["./src/modules/chat/*"],
-      "@chat-list/*": ["./src/modules/chat-list/*"],
-      "@shared/*": ["./src/modules/shared/*"],
-      "@assets/*": ["./src/modules/assets/*"]
+      "@side-bar/*": ["./src/features/side-bar/*"],
+      "@chat/*": ["./src/features/chat/*"],
+      "@chat-list/*": ["./src/features/chat-list/*"],
+      "@channels/*": ["./src/features/channels/*"],
+      "@states/*": ["./src/features/states/*"],
+      "@comunities/*": ["./src/features/comunities/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@assets/*": ["./src/assets/*"]
     }
   },
   "include": ["src"]

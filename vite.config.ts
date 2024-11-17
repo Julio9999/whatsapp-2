@@ -14,11 +14,14 @@ export default defineConfig({
   resolve: {
      alias: {
        "@": path.resolve(__dirname, "src"),
-       '@side-bar': path.resolve(__dirname, "src", "modules", "side-bar"),
-       '@chat': path.resolve(__dirname, "src", "modules", "chat"),
-       '@chat-list': path.resolve(__dirname, "src", "modules", "chat-list"),
-       '@shared': path.resolve(__dirname, "src", "modules", "shared"),
-       '@assets': path.resolve(__dirname, "src", "assets")
+       '@side-bar': path.resolve(__dirname, "src", "features" ,"side-bar"),
+       '@chat': path.resolve(__dirname, "src", "features","chat"),
+       '@chat-list': path.resolve(__dirname, "src", "features","chat-list"),
+       '@channels': path.resolve(__dirname, "src", "features","channels"),
+       '@states': path.resolve(__dirname, "src", "features","states"),
+       '@comunities': path.resolve(__dirname, "src", "features","comunities"),
+       '@shared': path.resolve(__dirname, "src","shared"),
+       '@assets': path.resolve(__dirname, "src","assets")
      },
   },
 });
