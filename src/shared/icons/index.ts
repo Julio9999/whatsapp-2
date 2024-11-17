@@ -1,3 +1,4 @@
+export { Plus } from "./plus";
 export { Search } from "./search";
 export { Channels } from "@shared/icons/channelts";
 export { Chats } from "@shared/icons/chats";
