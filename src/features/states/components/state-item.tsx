@@ -1,27 +1,23 @@
-import { Separator } from "@/components/ui/separator";
-import { User } from "@shared/icons";
+import { ListItem } from "@/shared/components/list-item/list-item";
 
-export const StateItem = () => {
+interface Props {
+    contactName: string;
+    date: string;
+}
 
+export const StateItem = ({contactName, date}: Props) => {
 
     return (
-        <div
-            className="pt-3 cursor-pointer  hover:bg-chatItemBgColor  relative"
+        <ListItem
+            withSeparator
         >
-            <div className="flex gap-4 flex-col pl-4">
-                <div className="flex gap-3 items-center ">
-                    <div>
-                        <User width="w-10" height="h-10" />
-                    </div>
-                    <div className="flex justify-between w-full flex-col gap-4">
-                        <div className="flex flex-col  w-full flex-1">
-                            <span className="text-textWhite font-bold">Mamá</span>
-                            <span className="text-textFilter">Hoy a las 11:30</span>
-                        </div>
-                        <Separator className="bg-borderBottomColor w-full" />
-                    </div>
-                </div>
+            <div className="flex flex-col">
+                <span className="text-textWhite font-bold">{contactName}</span>
+                <span className="text-textFilter">{date}</span>
             </div>
-        </div>
+            {/* <div className="flex flex-col items-end justify-between">
+                <span className="text-textFilter text-xs">18:40</span>
+            </div> */}
+        </ListItem>
     )
 }

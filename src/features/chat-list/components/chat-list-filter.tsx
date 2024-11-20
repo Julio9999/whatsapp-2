@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
-import { activeFilter } from "@shared/signals/filter";
 import { Filter } from "../constants/filter.interface";
+import { activeFilter } from "../signals/filter";
 
 interface Props {
   text: string;
